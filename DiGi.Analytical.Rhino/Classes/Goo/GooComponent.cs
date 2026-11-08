@@ -40,7 +40,7 @@ namespace DiGi.Analytical.Building.Rhino.Classes
     /// <summary>
     /// Provides a persistent Grasshopper parameter implementation for handling <see cref="GooComponent"/> data.
     /// </summary>
-    public class GooComponentParam : GooPresistentParam<GooComponent, Interfaces.IComponent>
+    public class GooComponentParam : GooPersistentParam<GooComponent, Interfaces.IComponent>
     {
         /// <summary>
         /// Gets the unique identifier associated with this component parameter type.

@@ -41,7 +41,7 @@ namespace DiGi.Analytical.Building.Rhino.Classes
     /// Represents the Grasshopper parameter component used to manage and transfer 
     /// <see cref="GooFloor"/> objects.
     /// </summary>
-    public class GooFloorParam : GooPresistentParam<GooFloor, Interfaces.IFloor>
+    public class GooFloorParam : GooPersistentParam<GooFloor, Interfaces.IFloor>
     {
         /// <summary>
         /// Gets the unique identifier for the <see cref="GooFloorParam"/> component.

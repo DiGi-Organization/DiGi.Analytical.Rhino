@@ -41,7 +41,7 @@ namespace DiGi.Analytical.Building.Rhino.Classes
     /// Represents the Grasshopper parameter component used to manage and display 
     /// <see cref="GooSpace"/> objects on the canvas.
     /// </summary>
-    public class GooSpaceParam : GooPresistentParam<GooSpace, Interfaces.ISpace>
+    public class GooSpaceParam : GooPersistentParam<GooSpace, Interfaces.ISpace>
     {
         /// <summary>
         /// Gets the unique identifier for the <see cref="GooSpaceParam"/> component.

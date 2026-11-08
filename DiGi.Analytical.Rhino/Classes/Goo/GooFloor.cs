@@ -39,7 +39,7 @@ namespace DiGi.Analytical.Building.Rhino.Classes
     /// <summary>
     /// The Grasshopper parameter component used to hold and manage <see cref="GooRoof"/> objects.
     /// </summary>
-    public class GooRoofParam : GooPresistentParam<GooRoof, Interfaces.IRoof>
+    public class GooRoofParam : GooPersistentParam<GooRoof, Interfaces.IRoof>
     {
         /// <summary>
         /// Gets the unique identifier for the <see cref="GooRoofParam"/> component.

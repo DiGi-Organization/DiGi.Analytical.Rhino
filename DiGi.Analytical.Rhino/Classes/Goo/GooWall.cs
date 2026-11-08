@@ -41,7 +41,7 @@ namespace DiGi.Analytical.Building.Rhino.Classes
     /// Provides a Grasshopper parameter type for handling and persisting 
     /// <see cref="Interfaces.IWall"/> objects using the <see cref="GooWall"/> wrapper.
     /// </summary>
-    public class GooWallParam : GooPresistentParam<GooWall, Interfaces.IWall>
+    public class GooWallParam : GooPersistentParam<GooWall, Interfaces.IWall>
     {
         /// <summary>
         /// Gets the unique identifier for the wall parameter component.
